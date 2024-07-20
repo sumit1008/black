@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import Glide from "@glidejs/glide";
 
-export default function slider() {
+export default function Slider() {
   useEffect(() => {
     const slider = new Glide(".glide-01", {
       type: "slider",
