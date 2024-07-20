@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@glidejs/glide": "^3.6.2",
+    "@glidejs/glide": "^3.5.1",
     "aos": "^2.3.4",
     "next": "^14.2.5",
     "react": "^18.3.1",
