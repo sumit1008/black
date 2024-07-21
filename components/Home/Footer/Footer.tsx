@@ -9,13 +9,22 @@ const Footer = () => {
             <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
                 <div className="flex justify-center text-teal-600">
                     <img className="rounded-full" src="/images/logo.svg" alt="logo" width={120} height={100} />
-                </div>
 
+                </div>
+                <h3 className='flex justify-center text-gray-800 text-3xl font-semibold tracking-tight'>
+                    Black Mass Energies Pvt Ltd
+
+                </h3>
+
+                <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500">
+                    Address : Sector 21 , Dwarka , New Delhi , Delhi , 110075
+                </p>
 
                 <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500">
                     Leading the charge in sustainable lithium-ion EV battery recycling ♻️
 
                 </p>
+
 
                 <ul className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
                     <li>
@@ -23,23 +32,21 @@ const Footer = () => {
                     </li>
 
                     <li>
-                        <Link className="text-gray-700 transition hover:text-gray-700/75" href="#"> Careers </Link>
+                        <Link className="text-gray-700 transition hover:text-gray-700/75" href="/explore"> Explore </Link>
                     </li>
 
                     <li>
-                        <Link className="text-gray-700 transition hover:text-gray-700/75" href="#"> History </Link>
+                        <Link className="text-gray-700 transition hover:text-gray-700/75" href="/blog"> History </Link>
                     </li>
 
                     <li>
-                        <Link className="text-gray-700 transition hover:text-gray-700/75" href="#"> Services </Link>
+                        <Link className="text-gray-700 transition hover:text-gray-700/75" href="/contact"> Services </Link>
                     </li>
 
-                    <li>
-                        <Link className="text-gray-700 transition hover:text-gray-700/75" href="#"> Projects </Link>
-                    </li>
+
 
                     <li>
-                        <Link className="text-gray-700 transition hover:text-gray-700/75" href="#"> Blog </Link>
+                        <Link className="text-gray-700 transition hover:text-gray-700/75" href="/blog"> Blog </Link>
                     </li>
                 </ul>
 
