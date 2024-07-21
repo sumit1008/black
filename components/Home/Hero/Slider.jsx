@@ -25,7 +25,7 @@ export default function Slider() {
 
   return (
     <>
-      {/*<!-- Component: Slider with controls inside --> */}
+      {/*<!-- Component: Slider with controls outside --> */}
       <div className="relative w-full glide-01">
         {/*<!-- Slides --> */}
         <div className="overflow-hidden" data-glide-el="track">
@@ -33,32 +33,33 @@ export default function Slider() {
             <li>
               <img
                 src="/images/real/collab.jpeg"
-                className="w-50 max-w-full max-h-full m-auto"
+                className="w-800 max-w-800 max-h-full m-auto"
               />
             </li>
             <li>
               <img
                 src="/images/real/collab3.jpg"
-                className="w-50 max-w-full max-h-full m-auto"
+                className="w-800 max-w-800 max-h-full m-auto"
               />
             </li>
             <li>
               <img
                 src="/images/real/plant.jpg"
-                className="w-50 max-w-full max-h-full m-auto"
+                className="w-800 max-w-800 max-h-full m-auto"
               />
             </li>
           </ul>
         </div>
         {/*<!-- Controls --> */}
         <div
-          className="absolute left-0 flex items-center justify-between w-full h-0 px-4 top-1/2 "
+          className="absolute left-0 flex items-center justify-between w-full px-4 top-1/2 transform -translate-y-1/2"
           data-glide-el="controls"
         >
           <button
             className="inline-flex items-center justify-center w-8 h-8 transition duration-300 border rounded-full border-slate-700 bg-white/20 text-slate-700 hover:border-slate-900 hover:text-slate-900 focus-visible:outline-none lg:h-12 lg:w-12"
             data-glide-dir="<"
             aria-label="prev slide"
+            style={{ position: "absolute", left: "-2rem" }}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -80,6 +81,7 @@ export default function Slider() {
             className="inline-flex items-center justify-center w-8 h-8 transition duration-300 border rounded-full border-slate-700 bg-white/20 text-slate-700 hover:border-slate-900 hover:text-slate-900 focus-visible:outline-none lg:h-12 lg:w-12"
             data-glide-dir=">"
             aria-label="next slide"
+            style={{ position: "absolute", right: "-2rem" }}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
