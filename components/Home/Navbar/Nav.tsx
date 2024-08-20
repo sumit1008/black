@@ -18,7 +18,7 @@ const Nav = () => {
             <div className='w-[95%] sm:w-[85%] md:w-[80%] h-full mx-auto flex items-center justify-between'>
                 <div className='flex items-center space-x-4'>
                     <Image src="/images/logo.svg" alt="logo" width={120} height={100} className='rounded-[50%]' />
-                    <span className='text-2xl font-bold text-gray-900'>Black Mass</span>
+                    <span className='text-2xl font-bold text-gray-900'>Black Mass Energies Pvt Ltd</span>
                 </div>
                 {/* navLinks */}
                 <div className='lg:flex hidden items-center space-x-10'>
